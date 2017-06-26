@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/android_fondo"
+    tools:context="ricindigus.com.appnotepad.activities.LoginActivity">
+
+    <TextView
+        android:textSize="@dimen/big_text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESCUELA DIGITAL"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:theme="@style/EditTextTheme">
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:theme="@style/EditTextTheme">
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ingresar"
+        android:textSize="@dimen/medium_text"
+        android:textColor="@color/white"
+
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/RaisedButtonDark"/>
+    <Button
+        android:id="@+id/btn_registro"
+        android:textSize="@dimen/medium_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registrate"
+        android:textColor="@color/white"
+        android:theme="@style/RaisedButtonDark"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Principal"
+            android:id="@+id/opcion_principal"
+            android:icon="@drawable/icon_principal"
+            android:checked="false"
+            />
+        <item android:title="Supermercado"
+            android:id="@+id/opcion_supermercado"
+            android:icon="@drawable/icon_supermercado"
+            android:checked="false"
+            />
+        <item android:title="Pendientes"
+            android:id="@+id/opcion_pendientes"
+            android:icon="@drawable/icon_vacaciones"
+            android:checked="false"
+            />
+        <item android:title="Vacaciones"
+            android:id="@+id/opcion_vacaciones"
+            android:icon="@drawable/icon_pendiente"
+            android:checked="false"
+            />
+    </group>
+</menu>
